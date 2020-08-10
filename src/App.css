@@ -1,0 +1,207 @@
+/* Import fonts: Quicksand and Roboto Mono of various weights */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto+Mono:wght@300;400;600&display=swap');
+
+/* App width */
+.limit-width{
+  max-width: 100vw;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+/* Custom background sections */
+.purple-diagonal {
+  text-align: center;
+  /* background-image: url('./assets/bg-1.png');
+  background-position-x: 60%;
+  background-position-y: -120%; */
+  /* background-repeat: no-repeat; */
+  background-color: #ED6A6E;
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+}
+.purple-curves{
+  background-image: url('./assets/bg-2.png');
+  background-repeat: no-repeat;
+  /* background-position-y: -250px; */
+  background-size: 100% 100% ;
+}
+.bg-white{
+  background: white;
+}
+.bg-pink{
+  background-color: #ED6A6E;
+}
+
+/* Text colours */
+.text-white{
+  color: white;
+}
+.text-black{
+  color: black;
+}
+.text-grey{
+  color: #737373;
+}
+
+/* Easy to use flexbox classes */
+.flex-col{
+  display: flex;
+  flex-direction: column;
+}
+.col-right{
+  align-items: right;
+  justify-content: flex-end;
+}
+.col-left{
+  align-items: left;
+  justify-content: flex-start;
+}
+.flex-row{
+  display: flex;
+  width: 100%;
+}
+.align-start{
+  align-items: flex-start;
+}
+.space-between{
+  justify-content: space-between;
+}
+.center{
+  justify-content: center;
+  align-items: center;
+}
+
+/* Fundder styled components in the form of .fundder-<use> */
+.fundder-button{
+  border: none;
+  outline: none;
+  background: white;
+  color: #ED6A6E;
+  font-size: 2.2em;
+  font-weight: 600;
+  font-family: 'Quicksand', sans-serif;
+  width: auto;
+  padding: 0.3em 1em;
+  border-radius: 0.4em;
+}
+.fundder-button:hover{
+  color: white;
+  background: #ED6A6E;
+  border: 2px solid white;
+  margin-bottom: -4px;
+  outline: none
+}
+.fundder-body{
+  font-weight: 400;
+  font-size: 1.4em;
+  letter-spacing: 0.02em;
+}
+#fundder-nav-link{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  font-size: 1.3em;
+}
+.fundder-nav-title{
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 400;
+  font-size: 1.8em;
+}
+.fundder-title{
+  font-family: 'Quicksand';
+  font-weight: 700;
+  font-size: 2.8em;
+}
+.fundder-section-title{
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 400;
+  font-size: 1.6em;
+}
+.fundder-section-subtitle{
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+.fundder-small{
+  font-size: 1.1em;
+}
+.roboto-mono{
+  font-family: 'Roboto Mono', monospace;
+}
+
+/* Custom CSS for the benefit list section */
+.benefit{
+  text-align: left;
+ }
+ .benefit-p-sizing{
+   max-width: 30vw;
+ }
+
+/* Custom CSS for images which should become smaller on mobile */
+.resizable-image{
+  width: 100%;
+  max-width: 100%;
+}
+
+.email-form{
+  font-family: 'Quicksand';
+  font-weight: 400;
+}
+
+/* Shrink text and reduce padding between breakpoints to avoid content overlap */
+@media(max-width: 1200px){
+  .fundder-title{
+    font-size:2.5em;
+  }
+  .fundder-nav-title-text{
+    display: none;
+  }
+  .fundder-nav-logo{
+    height: 80%;
+  }
+  #fundder-nav-link, .fundder-body{
+    font-size: 1.2em;
+  }
+  .fundder-button{
+    font-size: 1.8em;
+  }
+  #fundder-nav-link{
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+@media (max-width: 992px) { 
+  #fundder-title-block{
+    text-align: center !important;
+    padding: 0 0 5vh 0;
+  }
+  .purple-curves{
+    background-color: #ED6A6E;
+  }
+ }
+ @media (max-width: 768px) { 
+  .benefit{
+    text-align: center;
+  }
+  .benefit-p-sizing{
+    max-width: 75vw;
+    text-align: left;
+  }
+  .resizable-image{
+    width: 80%;
+    max-width: 80%;
+  }
+ }
+
+.py-panel{
+  padding-bottom: 12vh !important;
+  padding-top: 6vh !important;
+}
+
+.demo-phone{
+  max-width: 80vw;
+}
+
+.double-lines{
+  line-height: 2;
+}
