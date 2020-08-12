@@ -15,7 +15,7 @@ const HowFundderWorks = () => {
                     <h1 className="fundder-title">How does Fundder work?</h1>
                     <p className="fundder-body text-grey py-4">
                         Fundder is a social network, where every user has their own profile and a feed.
-                        The feed is composed of 4 sections: do, fund, and done.
+                        The feed is composed of 3 sections: do, fund, and done.
                     </p>
                 </Col>
             </Row>
