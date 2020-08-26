@@ -36,6 +36,9 @@
 .text-white{
   color: white;
 }
+.text-decoration-none{
+  text-decoration: none;
+}
 .text-black{
   color: black;
 }
@@ -107,6 +110,11 @@
   font-weight: 400;
   font-size: 1.8em;
 }
+.fundder-footer-heading{
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 400;
+  font-size: 1em;
+}
 .fundder-title{
   font-family: 'Quicksand';
   font-weight: 700;
@@ -149,6 +157,11 @@
   font-weight: 400;
 }
 
+.footer-image{
+  max-width: 10%;
+  height: auto;
+}
+
 /* Shrink text and reduce padding between breakpoints to avoid content overlap */
 @media(max-width: 1200px){
   .fundder-title{
@@ -179,6 +192,9 @@
   .purple-curves{
     background-color: #ED6A6E;
   }
+  .footer-image{
+    max-width: 20%;
+  }
  }
  @media (max-width: 768px) { 
   .benefit{
@@ -206,3 +222,8 @@
 .double-lines{
   line-height: 2;
 }
+
+.clear-list{
+  list-style-type: none;
+}
+

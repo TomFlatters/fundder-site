@@ -6,6 +6,7 @@ import HowFundderWorks from './components/howfundderworks';
 import ListBenefits from './components/listbenefits';
 import Charities from './components/charities';
 import SayHello from './components/sayhello';
+import Footer from './components/footer';
 
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -28,6 +29,9 @@ function App() {
       </div>
       <div className="limit-width bg-pink">
         <SayHello />
+      </div>
+      <div className="limit-width bg-pink">
+        <Footer />
       </div>
     </div>
   );
