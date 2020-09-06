@@ -17,7 +17,7 @@
   /* background-repeat: no-repeat; */
   background-color: rgba(237, 106, 110, .3);
   color: black;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'FoundersGrotesk';
 }
 .purple-curves{
   background-image: url('./assets/bg-2.png');
@@ -74,6 +74,14 @@
   align-items: center;
 }
 
+/* buttons for app store*/
+
+.store-button{
+  border: none;
+  outline: none;
+  max-width: 40%;
+}
+
 /* Fundder styled components in the form of .fundder-<use> */
 .fundder-button{
   border: none;
@@ -82,7 +90,7 @@
   color: #ff6b6c;
   font-size: 2.2em;
   font-weight: 600;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'FoundersGrotesk';
   width: auto;
   padding: 0.3em 1em;
   border-radius: 0.4em;
@@ -118,17 +126,17 @@
   font-size: 1.8em;
 }
 .fundder-footer-heading{
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'FoundersGrotesk';
   font-weight: 400;
   font-size: 1em;
 }
 .fundder-title{
-  font-family: 'Quicksand';
+  font-family: 'FoundersGrotesk';
   font-weight: 700;
-  font-size: 2.8em;
+  font-size: 2.5em;
 }
 .fundder-section-title{
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'FoundersGrotesk';
   font-weight: 400;
   font-size: 1.6em;
 }
@@ -160,7 +168,7 @@
 }
 
 .email-form{
-  font-family: 'Quicksand';
+  font-family: 'FoundersGrotesk';
   font-weight: 400;
 }
 
@@ -191,11 +199,8 @@
     padding-right: 0;
   }
 }
-@media (max-width: 992px) { 
-  #fundder-title-block{
-    text-align: center !important;
-    padding: 0 0 5vh 0;
-  }
+@media (max-width: 800px) { 
+  
   .purple-curves{
     background-color: #ff6b6c;
   }
@@ -204,6 +209,12 @@
   }
  }
  @media (max-width: 768px) { 
+
+  #fundder-title-block{
+    text-align: center !important;
+    padding: 0 0 5vh 0;
+  }
+  
   .benefit{
     text-align: center;
   }
@@ -215,6 +226,10 @@
     width: 80%;
     max-width: 80%;
   }
+
+  .demo-phone{
+    max-width: 60vw;
+  }
  }
 
 .py-panel{
@@ -222,8 +237,12 @@
   padding-top: 6vh !important;
 }
 
-.demo-phone{
-  max-width: 80vw;
+@media (min-width: 768px) {
+
+  .demo-phone{
+    max-width: 30vw;
+  }
+
 }
 
 .double-lines{
