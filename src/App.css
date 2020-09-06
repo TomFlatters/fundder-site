@@ -27,6 +27,10 @@
   /* background-position-y: -250px; */
   background-size: 100% 100% ;
 }
+
+.bg-grey{
+  background: #eeeeee;
+}
 .bg-white{
   background: white;
 }
@@ -79,6 +83,8 @@
 .card {
   transition: transform .2s;
   background-color: white;
+  border: 1px solid rgba(237, 106, 110, .3);
+  box-shadow: 0px 0px 10px rgba(237, 106, 110, .3);
 }
 
 .card:hover {
@@ -176,11 +182,13 @@
 }
 .fundder-section-subtitle{
   /* text-transform: uppercase; */
+  font-family: 'FoundersGrotesk';
   letter-spacing: 0.02em;
   font-size: 1.2em;
   font-weight: 600;
 }
 .fundder-small{
+  font-family: 'FoundersGrotesk';
   font-size: 1.1em;
 }
 .roboto-mono{
@@ -192,7 +200,7 @@
   text-align: left;
  }
  .benefit-p-sizing{
-   max-width: 30vw;
+   max-width: 40vw;
  }
 
 /* Custom CSS for images which should become smaller on mobile */
@@ -275,7 +283,7 @@
 @media (min-width: 768px) {
 
   .demo-phone{
-    max-width: 30vw;
+    max-width: 20vw;
   }
 
 }

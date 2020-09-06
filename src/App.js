@@ -21,7 +21,7 @@ function App() {
       <div className="limit-width">
         <HowFundderWorks />
       </div>
-      <div className="purple-curves text-center flex-col space-between limit-width">
+      <div className="bg-grey flex-col space-between limit-width">
         <ListBenefits id="features" />
       </div>
       <div className="limit-width">
