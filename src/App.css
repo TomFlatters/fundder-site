@@ -1,6 +1,8 @@
 /* Import fonts: Quicksand and Roboto Mono of various weights */
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto+Mono:wght@300;400;600&display=swap');
 
+/* App text */
+
 /* App width */
 .limit-width{
   max-width: 100vw;
@@ -74,6 +76,32 @@
   align-items: center;
 }
 
+.card {
+  transition: transform .2s;
+  background-color: white;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card-text{
+  font-family: 'FoundersGrotesk';
+}
+
+.card-title{
+  font-weight: 700;
+  font-family: 'FoundersGrotesk';
+}
+
+@media (max-width: 900px) { 
+  .card {
+    min-width:140px;
+
+  }
+ }
+
+
 /* buttons for app store*/
 
 .store-button{
@@ -83,6 +111,11 @@
 }
 
 /* Fundder styled components in the form of .fundder-<use> */
+
+.fundder-dofunddone{
+  background-color: grey;
+}
+
 .fundder-button{
   border: none;
   outline: none;
@@ -104,6 +137,7 @@
   outline: none
 }
 .fundder-body{
+  font-family: 'FoundersGrotesk';
   font-weight: 400;
   font-size: 1.4em;
   letter-spacing: 0.02em;
@@ -179,6 +213,7 @@
 
 /* Shrink text and reduce padding between breakpoints to avoid content overlap */
 @media(max-width: 1200px){
+
   .fundder-title{
     font-size:2.5em;
   }
@@ -214,7 +249,7 @@
     text-align: center !important;
     padding: 0 0 5vh 0;
   }
-  
+
   .benefit{
     text-align: center;
   }
