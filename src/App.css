@@ -35,7 +35,7 @@
   background: white;
 }
 .bg-pink{
-  background-color: #ff6b6c;
+  background-color: #a1585a;
 }
 
 /* Text colours */
@@ -72,6 +72,14 @@
 .align-start{
   align-items: flex-start;
 }
+
+.bottom_aligner {
+  display: inline-block;
+  height: 100%;
+  vertical-align: bottom;
+  width: 0px;
+}
+
 .space-between{
   justify-content: space-between;
 }
@@ -80,11 +88,28 @@
   align-items: center;
 }
 
+.charity-card {
+  max-width: 150px;
+  transition: transform .2s;
+  background-color: white;
+  border: 1px solid #eeeeee;
+  box-shadow: 0px 0px 10px #eeeeee;
+}
+
+.charity-card:hover {
+  transform: scale(1.03);
+}
+
 .card {
   transition: transform .2s;
   background-color: white;
   border: 1px solid rgba(237, 106, 110, .3);
   box-shadow: 0px 0px 10px rgba(237, 106, 110, .3);
+  
+}
+
+.card-deck{
+  margin: 0px 0px 60px 0px;
 }
 
 .card:hover {
@@ -273,17 +298,23 @@
   .demo-phone{
     max-width: 60vw;
   }
+
+  .demo-phone-main{
+    max-width: 60vw;
+  }
  }
 
-.py-panel{
-  padding-bottom: 12vh !important;
-  padding-top: 6vh !important;
-}
+
 
 @media (min-width: 768px) {
 
+  .demo-phone-main{
+    max-width: 30vw;
+  }
+
   .demo-phone{
     max-width: 20vw;
+    margin: 0px 0px 60px 0px;
   }
 
 }

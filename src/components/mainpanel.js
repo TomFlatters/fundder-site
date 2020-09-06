@@ -27,7 +27,7 @@ const MainPanel = () => {
         </Col>
         <Col xs={12} md={6} lg={5} xl={5} xxl={5} className="flex-col order-lg-2">
           <div className="my-0">
-            <img src={phone} className="demo-phone" />
+            <img src={phone} className="demo-phone-main" />
           </div>
         </Col>
       </Row>

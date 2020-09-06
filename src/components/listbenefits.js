@@ -9,7 +9,7 @@ import phone from '../assets/landing_video.gif';
 
 const Benefit = ({title, desc}) => {
     return(
-        <Col xs={12} md={6} lg={12} xl={12} xxl={12} className="pb-4 benefit">
+        <Col xs={12} md={12} lg={12} xl={12} xxl={12} className="pb-1 benefit">
             <h3 className="fundder-section-subtitle">{title}</h3>
             <div>
                 <p className="fundder-small double-lines benefit-p-sizing">
@@ -25,10 +25,7 @@ const ListBenefits = () => {
         <div id="features" className="mt-5 py-panel px-5 mx-0 text-black">
             <Row>
                 <Col className="col-lg-9">
-                    <h1 className="fundder-title mt-lg-4 pt-lg-4">Fundder is unique</h1>
-                    <p className="fundder-body">
-                        We are the only app that encourages you to make your challenges as unique as possible.
-                    </p>
+                    
                 </Col>
             </Row>
             
@@ -39,7 +36,11 @@ const ListBenefits = () => {
                         <img className="demo-phone" src={phone}/>
                     </Col>
                     <Col xs={12} md={6} lg={8} xl={8} xxl={8} className="pt-5 pt-lg-0 text-left">
-                        <Row className="pl-lg-2">
+                    <h1 className="fundder-title">Fundder is unique</h1>
+                    <p className="fundder-body mb-4 pb-4">
+                        We are the only app that encourages you to make your challenges as unique as possible.
+                    </p>
+                        <Row>
                             <Benefit title="Challenge Friends" desc="Ever wanted your friends to do something? This is an opportunity to challenge them for a good cause." />
                             <Benefit title="Find New Ideas" desc="Want to raise for charity but don't want to run another marathon? Our 'Do' feed contains new challenges." />
                             <Benefit title="View Challenges" desc="See challenges other people have completed, we promise that you will see more than just marathons!" />
