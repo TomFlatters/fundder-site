@@ -15,8 +15,8 @@
   background-position-x: 60%;
   background-position-y: -120%; */
   /* background-repeat: no-repeat; */
-  background-color: #ED6A6E;
-  color: white;
+  background-color: rgba(237, 106, 110, .3);
+  color: black;
   font-family: 'Quicksand', sans-serif;
 }
 .purple-curves{
@@ -29,7 +29,7 @@
   background: white;
 }
 .bg-pink{
-  background-color: #ED6A6E;
+  background-color: #ff6b6c;
 }
 
 /* Text colours */
@@ -79,7 +79,7 @@
   border: none;
   outline: none;
   background: white;
-  color: #ED6A6E;
+  color: #ff6b6c;
   font-size: 2.2em;
   font-weight: 600;
   font-family: 'Quicksand', sans-serif;
@@ -89,7 +89,7 @@
 }
 .fundder-button:hover{
   color: white;
-  background: #ED6A6E;
+  background: #ff6b6c;
   /* opacity: 0.7; */
   border: 2px solid white;
   margin-bottom: -4px;
@@ -101,13 +101,20 @@
   letter-spacing: 0.02em;
 }
 #fundder-nav-link{
-  font-family: 'Quicksand', sans-serif;
-  font-weight: 700;
-  font-size: 1.3em;
+  color: black;
+  font-family: 'FoundersGrotesk';
+  font-weight: 400;
+  font-size: 1.1em;
+}
+#fundder-nav-link:hover{
+  color: #ff6b6c;
+  font-family: 'FoundersGrotesk';
+  font-weight: 400;
+  font-size: 1.1em;
 }
 .fundder-nav-title{
-  font-family: 'Roboto Mono', monospace;
-  font-weight: 400;
+  font-family: 'FoundersGrotesk';
+  font-weight: 500;
   font-size: 1.8em;
 }
 .fundder-footer-heading{
@@ -190,7 +197,7 @@
     padding: 0 0 5vh 0;
   }
   .purple-curves{
-    background-color: #ED6A6E;
+    background-color: #ff6b6c;
   }
   .footer-image{
     max-width: 20%;

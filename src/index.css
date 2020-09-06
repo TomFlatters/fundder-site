@@ -11,3 +11,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'FoundersGrotesk';
+  src: url(./assets/fonts/FoundersGrotesk-Regular.otf) format('opentype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'FoundersGrotesk';
+  src: url(./assets/fonts/FoundersGrotesk-Medium.otf) format('opentype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'FoundersGrotesk';
+  src: url(./assets/fonts/FoundersGrotesk-Semibold.ttf) format('truetype');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'FoundersGrotesk';
+  src: url(./assets/fonts/FoundersGrotesk-Bold.otf) format('opentype');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'FoundersGrotesk';
+  src: url(./assets/fonts/FoundersGrotesk-Light.otf) format('opentype');
+  font-weight: 300;
+}

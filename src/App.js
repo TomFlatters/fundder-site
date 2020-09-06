@@ -14,7 +14,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <div>
-      <div className="purple-diagonal limit-width">
+      <div className="purple-diagonal">
         <CustomNavbar />
         <MainPanel />
       </div>
