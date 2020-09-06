@@ -12,7 +12,7 @@ const CustomNavbar = () => {
         <Navbar collapseOnSelect className="py-lg-2 py-2" expand="lg">
           <Navbar.Brand className="text-black fundder-nav-title" href="#home">
               <img src={fundderBear} className="mr-lg-3 fundder-nav-logo"/>
-              <span className="fundder-nav-title-text">Fundder</span>
+              <span className="fundder-nav-title-text mt-5">Fundder</span>
             </Navbar.Brand>
           
           <br />

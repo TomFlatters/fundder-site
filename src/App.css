@@ -3,6 +3,10 @@
 
 /* App text */
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* App width */
 .limit-width{
   max-width: 100vw;
@@ -148,24 +152,20 @@
 }
 
 .fundder-button{
+  transition: transform .2s;
   border: none;
   outline: none;
   background: white;
   color: #ff6b6c;
-  font-size: 2.2em;
+  font-size: 1.2em;
   font-weight: 600;
   font-family: 'FoundersGrotesk';
   width: auto;
-  padding: 0.3em 1em;
+  padding: 0.5em 1em 0.2em 1em;
   border-radius: 0.4em;
 }
 .fundder-button:hover{
-  color: white;
-  background: #ff6b6c;
-  /* opacity: 0.7; */
-  border: 2px solid white;
-  margin-bottom: -4px;
-  outline: none
+  transform: scale(1.03);
 }
 .fundder-body{
   font-family: 'FoundersGrotesk';
@@ -218,6 +218,16 @@
 }
 .roboto-mono{
   font-family: 'Roboto Mono', monospace;
+}
+
+.founders-grotesk{
+  font-family: 'FoundersGrotesk';
+}
+
+.founders-grotesk-bold{
+  font-family: 'FoundersGrotesk';
+  font-weight: bold;
+  font-size: x-large;
 }
 
 /* Custom CSS for the benefit list section */
@@ -281,6 +291,18 @@
   #fundder-title-block{
     text-align: center !important;
     padding: 0 0 5vh 0;
+  }
+
+  .fundder-title{
+    text-align: center !important;
+  }
+
+  .fundder-body{
+    text-align: center !important;
+  }
+
+  .fundder-small{
+    text-align: center !important;
   }
 
   .benefit{

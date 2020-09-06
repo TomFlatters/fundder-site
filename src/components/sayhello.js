@@ -7,8 +7,8 @@ import '../App.css';
 
 const SayHello = () => {
     return(
-        <div id="contact" className="py-panel mt-5 px-0 mx-0 text-white">
-            <h1 className="fundder-title text-center">Say Hello</h1>
+        <div id="contact" className="py-panel py-5 px-5 mx-0 text-white">
+            <h1 className="fundder-body text-center">Say Hello</h1>
             <form action="mailto:getintouch@fundder.web.app" className="email-form roboto-mono">
                 <Row className="flex-d justify-content-center">
                     <Col xs={12} md={8} lg={6} xl={5} xxl={4}>
