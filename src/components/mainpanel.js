@@ -17,7 +17,7 @@ const MainPanel = () => {
       <Row className="flex-row space-between align-start">
         <Col xs={12} md={6} lg={5} xl={5} xxl={5} id="fundder-title-block" className="flex-col offset-lg-1 order-lg-1 text-left">
           <h1 className="fundder-title mt-lg-4 pt-lg-4">Our mission is to get people hooked on giving.</h1>
-          <p className="fundder-body">Fundder is a social network for better, easier fundraising.</p>
+          <p className="fundder-body">Fundder is a social network for quicker, easier fundraising.</p>
           <a href="https://apps.apple.com/gb/app/fundder/id1529120882" target="_blank">
             <img className="store-button pt-5" src={iosButton}/>
           </a>

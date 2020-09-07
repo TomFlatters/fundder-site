@@ -9,11 +9,11 @@ import doneImage from '../assets/done.png';
 
 let sectionData = [
     { 'title': 'Do', 'image': doImage, 
-    'text': 'Find ideas for your own fundraisers or challenge friends in the "Do" feed' },
+    'text': 'something viral! Scroll through a list of trending challenges suggested by charities or make one up entirely by yourself!' },
     { 'title': 'Fund', 'image': fundImage, 
-    'text': 'Donate to active fundraisers or raise money for your own in the "Fund" feed. Make challenges come to life.' },
+    'text': 'Donate towards any fundraiser in the world with just one click!' },
     { 'title': 'Done', 'image': doneImage, 
-    'text': 'View completed challenges in the "Done" feed.' }
+    'text': 'View completed challenges in the "Done" feed. Endless videos trending both locally and around the world!' }
 ]
 
 function section(data, key){

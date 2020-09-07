@@ -42,9 +42,9 @@ const ListBenefits = () => {
                     </p>
                         <Row>
                             <Benefit title="Challenge Friends" desc="Ever wanted your friends to do something? This is an opportunity to challenge them for a good cause." />
-                            <Benefit title="Find New Ideas" desc="Want to raise for charity but don't want to run another marathon? Our 'Do' feed contains new challenges." />
+                            <Benefit title="Find New Ideas" desc="Want to raise for charity and want to do something new? Our 'Do' feed contains new challenges." />
                             <Benefit title="View Challenges" desc="See challenges other people have completed, we promise that you will see more than just marathons!" />
-                            <Benefit title="Become Famous" desc="Do something different and make yourself stand out. It doesn't have to be physically or mentally demanding." />
+                            <Benefit title="Become Famous" desc="Do something different and create the next viral trend. It takes less than 30 seconds to start a fundraiser." />
                         </Row>
                     </Col>
                 </Row>
