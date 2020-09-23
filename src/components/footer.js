@@ -17,10 +17,12 @@ const Footer = () => {
                         <img src={fundderBear} className="footer-image"/>
                         <div className="pl-3 pt-2">Fundder</div>
                         </Row>
+                        
                     </Col>
                     <Col xs={12} sm={4, {order: 2}} className="order-1 pt-4 pt-sm-0 text-center">
                         <a><li className="clear-list founders-grotesk fundder-footer-heading">Need Help?</li></a>
                         <a className="text-decoration-none founders-grotesk" href="emailto:team@fundder.co"><li className="clear-list text-white">team@fundder.co</li></a>
+                        <p>&copy; Stade Ltd</p>
                     </Col>
                     <Col xs={12, {order: 13}} sm={4, {order: 3}} className="order-3 pt-4 pt-sm-0 text-center">
                         <a className="text-decoration-none founders-grotesk" href="#"><li className="clear-list text-white">Back to top</li></a>
