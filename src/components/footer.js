@@ -20,10 +20,11 @@ const Footer = () => {
                     </Col>
                     <Col xs={12} sm={4, {order: 2}} className="order-1 pt-4 pt-sm-0 text-center">
                         <a><li className="clear-list fundder-footer-heading">Need Help?</li></a>
-                        <a className="text-decoration-none" href="emailto:team@fundder.co"><li className="clear-list text-white">team@fundder.co</li></a>
+                        <a className="text-decoration-none" href="mailto:team@fundder.co"><li className="clear-list text-white">team@fundder.co</li></a>
                     </Col>
                     <Col xs={12, {order: 13}} sm={4, {order: 3}} className="order-3 pt-4 pt-sm-0 text-center">
                         <a className="text-decoration-none" href="#"><li className="clear-list text-white">Back to top</li></a>
+                        <a className="text-decoration-none" href="/termsofuse.pdf"><li className="clear-list text-white">Terms of Use</li></a>
                     </Col>
                 </Row>
             </Container>
