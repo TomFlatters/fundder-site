@@ -13,18 +13,19 @@ const Footer = () => {
             <Container className="py-4 text-white">
                 <Row>
                     <Col className="order-2 pt-4 pt-sm-0" xs={12} sm={4, {order: 1}}>
-                        <Row className="clear-list roboto-mono pb-3 align-items-center justify-content-center">
-                            <div className="pr-3">Fundder</div>
-                            <img src={fundderBear} className="footer-image"/>
+                        <Row className="clear-list founders-grotesk-bold pb-3 align-items-center justify-content-center">
+                        <img src={fundderBear} className="footer-image"/>
+                        <div className="pl-3 pt-2">Fundder</div>
                         </Row>
+                        
                     </Col>
                     <Col xs={12} sm={4, {order: 2}} className="order-1 pt-4 pt-sm-0 text-center">
-                        <a><li className="clear-list fundder-footer-heading">Need Help?</li></a>
-                        <a className="text-decoration-none" href="mailto:team@fundder.co"><li className="clear-list text-white">team@fundder.co</li></a>
+                        <a><li className="clear-list founders-grotesk fundder-footer-heading">Need Help?</li></a>
+                        <a className="text-decoration-none founders-grotesk" href="emailto:team@fundder.co"><li className="clear-list text-white">team@fundder.co</li></a>
+                        <p>&copy; Stade Ltd</p>
                     </Col>
                     <Col xs={12, {order: 13}} sm={4, {order: 3}} className="order-3 pt-4 pt-sm-0 text-center">
-                        <a className="text-decoration-none" href="#"><li className="clear-list text-white">Back to top</li></a>
-                        <a className="text-decoration-none" href="/termsofuse.pdf"><li className="clear-list text-white">Terms of Use</li></a>
+                        <a className="text-decoration-none founders-grotesk" href="#"><li className="clear-list text-white">Back to top</li></a>
                     </Col>
                 </Row>
             </Container>

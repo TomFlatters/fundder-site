@@ -14,14 +14,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <div>
-      <div className="purple-diagonal limit-width">
+      <div className="purple-diagonal">
         <CustomNavbar />
         <MainPanel />
       </div>
       <div className="limit-width">
         <HowFundderWorks />
       </div>
-      <div className="purple-curves text-center flex-col space-between limit-width">
+      <div className="bg-grey flex-col space-between limit-width">
         <ListBenefits id="features" />
       </div>
       <div className="limit-width">
