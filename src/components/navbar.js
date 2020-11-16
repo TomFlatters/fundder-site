@@ -21,11 +21,11 @@ const CustomNavbar = () => {
           </div>
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="ml-auto">
-                <Nav.Link className="mx-lg-2 px-3 text-black" id="fundder-nav-link" href="#home">Home</Nav.Link>
-                <Nav.Link className="mx-lg-2 px-3 text-black" id="fundder-nav-link" href="#howitworks">How It Works</Nav.Link>
-                <Nav.Link className="mx-lg-2 px-3 text-black" id="fundder-nav-link" href="#features">Features</Nav.Link>
-                <Nav.Link className="mx-lg-2 px-3 text-black" id="fundder-nav-link" href="#charities">Charities</Nav.Link>
-                <Nav.Link className="mx-lg-2 px-3 text-black" id="fundder-nav-link" href="#contact">Contact</Nav.Link>
+                <Nav.Link className="mx-lg-2 px-3 text-black" id="fundder-nav-link" href="/#home">Home</Nav.Link>
+                <Nav.Link className="mx-lg-2 px-3 text-black" id="fundder-nav-link" href="/#howitworks">How It Works</Nav.Link>
+                <Nav.Link className="mx-lg-2 px-3 text-black" id="fundder-nav-link" href="/#features">Features</Nav.Link>
+                <Nav.Link className="mx-lg-2 px-3 text-black" id="fundder-nav-link" href="/#charities">Charities</Nav.Link>
+                <Nav.Link className="mx-lg-2 px-3 text-black" id="fundder-nav-link" href="/#contact">Contact</Nav.Link>
               </Nav>
             </Navbar.Collapse>
       </Navbar>
